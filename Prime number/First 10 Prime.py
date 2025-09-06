@@ -1,6 +1,6 @@
 #write a program to print first 10 print numbers
 n=2
-target=int(input())
+target=10
 c=0
 while c<target:
     if n>1:
@@ -10,4 +10,5 @@ while c<target:
         else:
             print(n)
             c+=1
+
     n+=1
